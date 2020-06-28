@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Robert Young"
   avatar           : "Rob_Young_01.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "I'm a Research Masters candidate in Computer Vision at University College Dublin. MSc in Computer Science, BEng in Mechanical Engineering. "
   location         : "Dublin, Ireland"
-  employer         :
+  employer         : "University College Dublin"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=FATl9cYAAAAJ&hl=en&authuser=1"
-  email            :
-  researchgate     : "https://www.researchgate.net/profile/Robert_Young75"
+  email            : "robert.young2@ucdconnect.ie"
+  researchgate     : #"https://www.researchgate.net/profile/Robert_Young75"
   uri              :
   bitbucket        :
   codepen          :
