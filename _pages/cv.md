@@ -11,30 +11,41 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* MSc. in Research (Computer Vision), University College Dublin, 2021 (expected)
+* MSc. in Computer Science (1st), Class 1:1, University College Dublin, 2019
+* BEng. in Mechanical Engineering, Class 2:1, University College Dublin, 2010
 
-Work experience
+Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2020 - Present: Research Masters Candidate (Computer Vision)
+  * University College Dublin and Lero
+  * Location: Dublin Ireland
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* September 2019 - April 2020: Research Assistant
+  * University College Dublin - Complex Software Laboratory
+  * Location: Dublin Ireland
+
+* May 2017 - August 2018: Senior Systems Engineer
+  * Jaguar Land Rover
+  * Location: Gaydon, United Kingdom
+  
+* May 2014 - May 2017: Product Development Engineer
+  * Jaguar Land Rover
+  * Location: Gaydon, United Kingdom
+  
+* October 2013 - May 2014: Project Leader
+  * Jaguar Land Rover
+  * Location: Gaydon, United Kingdom
+  
+* September 2011 - September 2013: Graduate Program - Product Development
+  * Jaguar Land Rover
+  * Location: Gaydon, United Kingdom
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages: Python, Java, C#, JavaScript, SQL
+* Machine Learning: Deep Learning, Computer Vision, Natural Language Processing, PyTorch, Data Analysis
+* Core CS: Software Development, Test-Driven Development, Object-Orientated Programming, Data-Structures
 
 Publications
 ======
@@ -42,18 +53,4 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
