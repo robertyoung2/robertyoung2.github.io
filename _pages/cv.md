@@ -29,15 +29,7 @@ Experience
   * Jaguar Land Rover
   * Location: Gaydon, United Kingdom
   
-* May 2014 - May 2017: Product Development Engineer
-  * Jaguar Land Rover
-  * Location: Gaydon, United Kingdom
-  
-* October 2013 - May 2014: Project Leader
-  * Jaguar Land Rover
-  * Location: Gaydon, United Kingdom
-  
-* September 2011 - September 2013: Graduate Program - Product Development
+* September 2011 - May 2017: Product Development Engineer
   * Jaguar Land Rover
   * Location: Gaydon, United Kingdom
   
