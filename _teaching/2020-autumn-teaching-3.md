@@ -1,5 +1,5 @@
 ---
-title: "COMP20270 Python Object-Orientated Programming"
+title: "COMP20270 Python Object-Orientated Programming - Demonstrator"
 collection: teaching
 type: "Masters course"
 permalink: /teaching/2020-autumn-teaching-3

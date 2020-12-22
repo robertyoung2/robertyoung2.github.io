@@ -1,5 +1,5 @@
 ---
-title: "COMP41670 Software Engineering (Java)"
+title: "COMP41670 Software Engineering (Java) - Demonstrator"
 collection: teaching
 type: "Masters course"
 permalink: /teaching/2015-autumn-teaching-2
