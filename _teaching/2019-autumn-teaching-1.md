@@ -1,16 +1,14 @@
 ---
 title: "COMP30640 Operating Systems (BASH) - Demonstrator"
 collection: teaching
-type: "Masters Course"
+type: "Masters course"
 permalink: /teaching/2019-autumn-teaching-1
 venue: "University College Dublin, School of Computer Science"
-date: 2019-11-09, 2020-11-21
+date: 2019-11-09
 location: "Dublin, Ireland"
 ---
-Overview
-======
 
-Demonstrator for the practical lab sessions which were taught through the BASH programming language. 
+Demonstrator for the Operating Systems practical sessions which were taught through the BASH programming language. 
 Topics that were covered in these labs included:
 
 * The Linux kernel and virtual machines.
