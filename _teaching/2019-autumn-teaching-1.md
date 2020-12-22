@@ -4,13 +4,14 @@ collection: teaching
 type: "Masters Course"
 permalink: /teaching/2019-autumn-teaching-1
 venue: "University College Dublin, School of Computer Science"
-date: 2019-11-09
+date: 2019-11-09, 2020-11-21
 location: "Dublin, Ireland"
 ---
 Overview
 ======
 
-Demonstrator for the practical lab sessions which were based on the BASH language. Topics that were covered in these labs included:
+Demonstrator for the practical lab sessions which were taught through the BASH programming language. 
+Topics that were covered in these labs included:
 
 * The Linux kernel and virtual machines.
 * Version control using Git and GitHub.
