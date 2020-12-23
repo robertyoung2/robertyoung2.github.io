@@ -5,7 +5,7 @@ type: "Masters course"
 permalink: /teaching/2019-autumn-teaching-1
 venue: "University College Dublin, School of Computer Science"
 date: 2019-11-09
-date2: 2020-21-09
+date2: 2020-00-00
 location: "Dublin, Ireland"
 ---
 
