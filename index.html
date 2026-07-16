@@ -15,17 +15,55 @@
   <meta property="og:title" content="Robert Young, Technical Lead &amp; Software Engineer">
   <meta property="og:description" content="Building full-stack systems and exploring applied AI at Qualtrics in Dublin.">
   <meta property="og:url" content="https://www.robertyoung.ie/">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:locale" content="en_IE">
+  <meta property="og:image" content="https://www.robertyoung.ie/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Robert Young — Technical Lead and Software Engineer, Qualtrics, Dublin, Ireland.">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <meta name="theme-color" content="#111210">
+  <meta name="theme-color" content="#111210" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#faf8f2" media="(prefers-color-scheme: light)">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts are self-hosted in fonts/ — no third-party connection. Preload the
+       two faces used above the fold; crossorigin is required even same-origin. -->
+  <link rel="preload" href="fonts/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ibm-plex-mono-400.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Robert Young",
+    "url": "https://www.robertyoung.ie/",
+    "image": "https://www.robertyoung.ie/og.png",
+    "jobTitle": "Technical Lead",
+    "description": "Technical Lead and Software Engineer at Qualtrics in Dublin, building full-stack systems and exploring applied AI.",
+    "worksFor": { "@type": "Organization", "name": "Qualtrics" },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dublin",
+      "addressCountry": "IE"
+    },
+    "knowsAbout": [
+      "Software Engineering",
+      "System Design",
+      "Distributed Systems",
+      "Applied Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/robertyoung6/",
+      "https://github.com/robertyoung2",
+      "https://scholar.google.com/citations?user=3MM04GYAAAAJ&hl=en"
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -168,5 +206,27 @@
       </section>
     </main>
   </div>
+
+  <!-- Analytics: GoatCounter — no cookies, no personal data, no consent banner. -->
+  <script data-goatcounter="https://robertyoung.goatcounter.com/count"
+          async src="https://gc.zgo.at/count.js"></script>
+
+  <script>
+    // Count outbound clicks. One delegated listener, so links added later are
+    // covered automatically. The counter is async and may be blocked, so every
+    // call is guarded — analytics must never break the page.
+    document.addEventListener('click', function (e) {
+      var t = e.target;
+      if (!t || !t.closest) return;
+      var a = t.closest('a[href^="http"]');
+      if (!a || a.host === location.host) return;
+      if (!window.goatcounter || !window.goatcounter.count) return;
+      window.goatcounter.count({
+        path: 'click-' + a.host.replace(/^www\./, ''),
+        title: (a.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 80),
+        event: true
+      });
+    });
+  </script>
 </body>
 </html>
